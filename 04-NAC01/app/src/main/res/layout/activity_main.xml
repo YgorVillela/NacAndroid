@@ -1,0 +1,42 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/p0"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:id="@+id/imagem"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnAnterior"
+        android:text="Imagem Anterior"
+        android:background="@color/rosa"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnProxima"
+        android:text="@string/proxima_imagem"
+        android:background="@color/rosa"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
